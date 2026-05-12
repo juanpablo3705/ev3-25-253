@@ -8,7 +8,12 @@ while ingreso:
     print("2. Simulació de compras")
     print("3. Salir")
 
-    op = int(input("Ingrese su opcion: "))
+    while True:
+        try:
+            op = int(input("Ingrese su opcion: "))
+            break
+        except ValueError:
+            print("Ingrese un valor numerico del 1 al 3")
 
     if op == 1:
         print("Pagando...")

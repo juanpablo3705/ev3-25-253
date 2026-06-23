@@ -4,6 +4,7 @@ deuda = 100000
 saldo = 200000
 suma_compras = 0
 
+# menu principal
 while True:
 
     print("----- MENÚ -----")
